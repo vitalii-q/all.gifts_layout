@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>all.gifts</title>
+
+    <link rel="stylesheet" href="styles/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owlcarousel/owl.theme.default.min.css">
+
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="top-line">
+    <div class="container flex-container flex-wrap">
+
+        <div class="top-line__menu flex-container flex-wrap">
+            <a href="#" class="top-line__menu-about flex-container">
+                <div class="top-line__icon top-line__menu-about-img" src="images/icon/info.gif"></div>
+                <p>О нас</p>
+            </a>
+            <a href="#" class="top-line__menu-cooperation flex-container">
+                <div class="top-line__icon top-line__menu-cooperation-img" src="images/icon/star-(1).gif"></div>
+                <p>Сотрудничество</p>
+            </a>
+            <a href="#" class="top-line__menu-contacts flex-container">
+                <div class="top-line__icon top-line__menu-contacts-img" src="images/icon/envelope.gif"></div>
+                <p>Контакты</p>
+            </a>
+            <div href="#" class="top-line__menu-city flex-container" id="top-line__menu-city">
+                <div class="top-line__icon top-line__menu-city-img" src="images/icon/placeholder.gif"></div>
+                <p class="top-line__menu-city-grey">Ваш город: </p>
+                <p class="top-line__menu-city-city">Москва</p>
+            </div>
+
+            <div class="city-dropdown" id="city-dropdown">
+                <p class="city-dropdown__title">Город</p>
+
+                <div class="city-dropdown__current flex-container">
+                    <p class="city-dropdown__text-color city-dropdown__text-color-ml">Текущий город:	&nbsp;</p>
+                    <p class="city-dropdown__text city-dropdown__text-mr">Москва</p>
+                </div>
+
+                <div class="city-dropdown__line"></div>
+
+                <div class="city-dropdown__input-wrapper flex-container">
+                    <p class="city-dropdown__text-color">Ваш город:</p>
+                    <input class="city-dropdown__input" placeholder="Введите название города">
+                </div>
+                <div class="city-dropdown__example flex-container">
+                    <p class="city-dropdown__text-color">Например:</p>
+                    <div class="city-dropdown__city-wrapper flex-container">
+                        <a class="city-dropdown__city1" href="#">Москва</a>
+                        <a class="city-dropdown__city2" href="#">Санкт-Петербург</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-line__personal flex-container">
+            <div class="top-line__login flex-container" onclick="modalStyleDisplayBlockLogin()">
+                <img src="images/icon/profile.gif">
+                <p>Войти</p>
+            </div>
+            <div class="top-line__registration flex-container" onclick="displayBlockRegister()">
+                <img src="images/icon/more.gif">
+                <p>Регистрация</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="content-line">
+    <div class="container flex-container flex-wrap">
+        <div class="content-line__logo-wrapper">
+            <img src="images/logo.gif">
+            <p class="">ПОДБОР ПОДАРКОВ И ВПЕЧАТЛЕНИЙ</p>
+        </div>
+
+        <div class="content-line__text">
+            <p>Мы собрали лучшие предложения по идеям<br> для подарка от более чем 300-х интернет магазинов</p>
+        </div>
+
+        <div class="content-line__contacts">
+            <div class="content-line__skype flex-container">
+                <img src="images/header/skype.gif">
+                <p>all.gifts</p>
+            </div>
+            <a href="tel:8 800 200 50 50" class="content-line__phone flex-container">
+                <img src="images/header/viber-(1).png">
+                <p>8 800 200 50 50</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="menu-line">
+    <div class="container flex-container">
+        <div class="menu">
+            <div class="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="links">
+                <li class="menu-dropdown"><a href="#">каталог</a>
+                    <ul>
+                        <li><a href="#">категория</a>
+                            <ul>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">категория</a>
+                            <ul>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">категория</a>
+                            <ul>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">категория</a>
+                            <ul>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">категория</a>
+                            <ul>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                                <li><a href="#">Категория</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <div class="menu-vertical-line"></div>
+                <li><a href="#">мужчине</a></li>
+                <li><a href="#">женщине</a></li>
+                <li><a href="#">ребенку</a></li>
+                <li><a href="#">паре</a></li>
+                <div class="menu-vertical-line"></div>
+                <li><a href="#">день рождения</a></li>
+                <li><a href="#">юбилей</a></li>
+                <li><a href="#">свадьба</a></li>
+                <li><a href="#">новый год</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-line__logo-mini" style="background-image: url('images/header/logo-header-mini.png');"></div>
+        <a href="tel:8 800 200 50 50" class="content-line__phone content-line__phone2 flex-container">
+            <img src="images/header/viber-(1)-white.png">
+            <p>8 800 200 50 50</p>
+        </a>
+
+        <a href="#" class="search flex-container">
+            <img src="images/icon/magnifying-glass.png">
+            <p>ПОИСК</p>
+        </a>
+    </div>
+</div>
+
+<div class="statistics">
+    <div class="container">
+        <p class="breadcrumbs">Главная	&nbsp;/	&nbsp;Личный кабинет	&nbsp;/	&nbsp;Рекламный кабинет</p>
+        <h1>Рекламный кабинет</h1>
+
+        <div class="advertising-links flex-container flex-wrap">
+            <a href="#" class="advertising-link">
+                <div class="advertising-link__wrapper advertising-link__wrapper1 flex-container">
+                    <div class="advertising-link__icon advertising-link__icon1"></div>
+                    <p class="advertising-link__name">Статистика</p>
+                </div>
+            </a>
+            <a href="#" class="advertising-link active">
+                <div class="advertising-link__wrapper advertising-link__wrapper2 flex-container">
+                    <div class="advertising-link__icon advertising-link__icon2"></div>
+                    <p class="advertising-link__name">Товары</p>
+                </div>
+            </a>
+            <a href="#" class="advertising-link">
+                <div class="advertising-link__wrapper advertising-link__wrapper3 flex-container">
+                    <div class="advertising-link__icon advertising-link__icon3"></div>
+                    <p class="advertising-link__name">Баланс</p>
+                </div>
+            </a>
+            <a href="#" class="advertising-link">
+                <div class="advertising-link__wrapper advertising-link__wrapper4 flex-container">
+                    <div class="advertising-link__icon advertising-link__icon4"></div>
+                    <p class="advertising-link__name">Частые вопросы</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="product">
+            <div class="product__top-buttons flex-container flex-wrap">
+                <div class="product__top-button_1" onclick="addingProductBlock()">ДОБАВИТЬ ТОВАР</div>
+                <div class="product__top-button_2" onclick="importPriceBlock()">ИМПОРТИРОВАТЬ ПРАЙС-ЛИСТ</div>
+            </div>
+
+            <div class="city-dropdown__line"></div>
+
+            <div class="product__sort-wrapper flex-container flex-wrap">
+                <div class="product__quantity product__quantity_1 flex-container">
+                    <p class="product__quantity-color-text">Сортировать по:</p>
+                    <p class="product__quantity-value">Цене (по убыванию)</p>
+                </div>
+
+                <div class="product__quantity product__quantity_2 flex-container">
+                    <p class="product__quantity-color-text">Количество:</p>
+                    <p class="product__quantity-value">10</p>
+                </div>
+            </div>
+
+            <div class="product__content-scroll">
+                <div class="product__content">
+                    <div class="product__titles flex-container">
+                        <p class="product__line_1"></p>
+                        <p class="product__line_2">ID</p>
+                        <p class="product__line_3">Активность</p>
+                        <p class="product__line_4">Дата ред.</p>
+                        <p class="product__line_5">Название</p>
+                        <p class="product__line_6">Цена (новая)</p>
+                        <p class="product__line_7">Цена (старая)</p>
+                        <p class="product__line_8">Категория</p>
+                        <p class="product__line_9">Ссылка</p>
+                        <p class="product__line_10">География</p>
+                        <p class="product__line_11">Новинка</p>
+                        <p class="product__line_12">Скидка</p>
+                        <p class="product__line_13">Хит</p>
+                    </div>
+
+                    <div class="product__value value-grey flex-container">
+                        <p class="product__line_1">
+                            <input type="checkbox" class="line-checkbox" id="line_1-checkbox">
+                            <label for="line_1-checkbox"></label>
+                        </p>
+                        <p class="product__line_2">1</p>
+                        <p class="product__line_3">
+                            <img class="product__line-icon product__line-icon-green" src="images/icon/Ellipse-1.png">
+                            <img class="product__line-icon product__line-icon-view" src="images/icon/view.png">
+                        </p>
+                        <p class="product__line_4">19.08.2019</p>
+                        <p class="product__line_5">Pampers Трусики Pants 12-17 кг (размер 5) 152 шт</p>
+                        <p class="product__line_6">5 000</p>
+                        <p class="product__line_7">10 000</p>
+                        <p class="product__line_8">Пол: Мужчина, Женщина...</p>
+                        <p class="product__line_9">http://domain.ru</p>
+                        <p class="product__line_10">Челябинск</p>
+                        <p class="product__line_11">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <p class="product__line_12">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <p class="product__line_13">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <div class="product__hover-element flex-container">
+                            <div class="product__hover-element_1">РЕДАКТИРОВАТЬ</div>
+                            <div class="product__hover-element_2">УДАЛИТЬ</div>
+                        </div>
+                    </div>
+
+                    <div class="product__value flex-container">
+                        <p class="product__line_1">
+                            <input type="checkbox" class="line-checkbox" id="line_2-checkbox">
+                            <label for="line_2-checkbox"></label>
+                        </p>
+                        <p class="product__line_2">1</p>
+                        <p class="product__line_3">
+                            <img class="product__line-icon product__line-icon-red" src="images/icon/Ellipse-1-copy.png">
+                            <img class="product__line-icon product__line-icon-time" src="images/icon/time-left.png">
+                        </p>
+                        <p class="product__line_4">19.08.2019</p>
+                        <p class="product__line_5">Pampers Трусики Pants 12-17 кг (размер 5) 152 шт</p>
+                        <p class="product__line_6">5 000</p>
+                        <p class="product__line_7">10 000</p>
+                        <p class="product__line_8">Пол: Мужчина, Женщина...</p>
+                        <p class="product__line_9">http://domain.ru</p>
+                        <p class="product__line_10">Челябинск</p>
+                        <p class="product__line_11">
+                            <img class="product__line-icon product__line-icon-check-mark-red" src="images/icon/delete-button-red.png">
+                        </p>
+                        <p class="product__line_12">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <p class="product__line_13">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <div class="product__hover-element flex-container">
+                            <div class="product__hover-element_1">РЕДАКТИРОВАТЬ</div>
+                            <div class="product__hover-element_2">УДАЛИТЬ</div>
+                        </div>
+                    </div>
+
+                    <div class="product__value value-grey flex-container">
+                        <p class="product__line_1">
+                            <input type="checkbox" class="line-checkbox" id="line_3-checkbox">
+                            <label for="line_3-checkbox"></label>
+                        </p>
+                        <p class="product__line_2">1</p>
+                        <p class="product__line_3">
+                            <img class="product__line-icon product__line-icon-green" src="images/icon/Ellipse-1.png">
+                            <img class="product__line-icon product__line-icon-no-view" src="images/icon/Shape-2.png">
+                            <img class="product__line-icon product__line-icon-load" src="images/icon/reload-copy-2.png">
+                        </p>
+                        <p class="product__line_4">19.08.2019</p>
+                        <p class="product__line_5">Pampers Трусики Pants 12-17 кг (размер 5) 152 шт</p>
+                        <p class="product__line_6">5 000</p>
+                        <p class="product__line_7">10 000</p>
+                        <p class="product__line_8">Пол: Мужчина, Женщина...</p>
+                        <p class="product__line_9">http://domain.ru</p>
+                        <p class="product__line_10">Челябинск</p>
+                        <p class="product__line_11">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <p class="product__line_12">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <p class="product__line_13">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <div class="product__hover-element flex-container">
+                            <div class="product__hover-element_1">РЕДАКТИРОВАТЬ</div>
+                            <div class="product__hover-element_2">УДАЛИТЬ</div>
+                        </div>
+                    </div>
+
+                    <div class="product__value flex-container">
+                        <p class="product__line_1">
+                            <input type="checkbox" class="line-checkbox" id="line_4-checkbox">
+                            <label for="line_4-checkbox"></label>
+                        </p>
+                        <p class="product__line_2">1</p>
+                        <p class="product__line_3">
+                            <img class="product__line-icon product__line-icon-green" src="images/icon/Ellipse-1.png">
+                            <img class="product__line-icon product__line-icon-view" src="images/icon/view.png">
+                        </p>
+                        <p class="product__line_4">19.08.2019</p>
+                        <p class="product__line_5">Pampers Трусики Pants 12-17 кг (размер 5) 152 шт</p>
+                        <p class="product__line_6">5 000</p>
+                        <p class="product__line_7">10 000</p>
+                        <p class="product__line_8">Пол: Мужчина, Женщина...</p>
+                        <p class="product__line_9">http://domain.ru</p>
+                        <p class="product__line_10">Челябинск</p>
+                        <p class="product__line_11">
+                            <img class="product__line-icon product__line-icon-check-mark-red" src="images/icon/delete-button-red.png">
+                        </p>
+                        <p class="product__line_12">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <p class="product__line_13">
+                            <img class="product__line-icon product__line-icon-check-mark-green" src="images/icon/check-mark.png">
+                        </p>
+                        <div class="product__hover-element flex-container">
+                            <div class="product__hover-element_1">РЕДАКТИРОВАТЬ</div>
+                            <div class="product__hover-element_2">УДАЛИТЬ</div>
+                        </div>
+                    </div>
+
+                    <div class="product__value value-grey flex-container">
+                        <p class="product__line_1">
+                            <input type="checkbox" class="line-checkbox" id="line_5-checkbox">
+                            <label for="line_5-checkbox"></label>
+                        </p>
+                        <p class="product__line_2">1</p>
+                        <p class="product__line_3">
+                            <img class="product__line-icon product__line-icon-green" src="images/icon/Ellipse-1.png">
+                            <img class="product__line-icon product__line-icon-view" src="images/icon/view.png">
+                        </p>
+                        <p class="product__line_4">19.08.2019</p>
+                        <p class="product__line_5">Pampers Трусики Pants 12-17 кг (размер 5) 152 шт</p>
+                        <p class="product__line_6">5 000</p>
+                        <p class="product__line_7">10 000</p>
+                        <p class="product__line_8">Пол: Мужчина, Женщина...</p>
+                        <p class="product__line_9">http://domain.ru</p>
+                        <p class="product__line_10">Челябинск</p>
+                        <p class="product__line_11">
+                            <img class="product__line-icon product__line-icon-check-mark-red" src="images/icon/delete-button-red.png">
+                        </p>
+                        <p class="product__line_12">
+                            <img class="product__line-icon product__line-icon-check-mark-red" src="images/icon/delete-button-red.png">
+                        </p>
+                        <p class="product__line_13">
+                            <img class="product__line-icon product__line-icon-check-mark-red" src="images/icon/delete-button-red.png">
+                        </p>
+                        <div class="product__hover-element flex-container">
+                            <div class="product__hover-element_1">РЕДАКТИРОВАТЬ</div>
+                            <div class="product__hover-element_2">УДАЛИТЬ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product__pagination pagination flex-container">
+                <a href="#" class="pagination__arrow-left"></a>
+
+                <div class="pagination__link-wrapper flex-container">
+                    <a href="#" class="pagination__page-numder">1</a>
+                    <a href="#" class="pagination__page-numder pagination__page-active">2</a>
+                    <a href="#" class="pagination__page-numder">3</a>
+                    <a href="#" class="pagination__page-numder">4</a>
+                </div>
+
+                <a href="#" class="pagination__arrow-right"></a>
+            </div>
+
+            <div class="city-dropdown__line"></div>
+
+            <div class="product-bottom flex-container">
+                <div class="product-bottom__wrapper_1 flex-container">
+                    <div class="product-bottom__quantity product-bottom__quantity_1 flex-container">
+                        <p class="product-bottom__quantity-color-text">Отмечено:</p>
+                        <p class="product-bottom__quantity-value">0 / 20</p>
+                    </div>
+
+                    <div class="product-bottom__quantity product-bottom__quantity_2 flex-container">
+                        <p class="product-bottom__quantity-color-text">Всего товаров:</p>
+                        <p class="product-bottom__quantity-value">268</p>
+                    </div>
+                </div>
+
+                <div class="product__bottom-buttons flex-container">
+                    <div class="product__bottom-button_1">РЕДАКТИРОВАТЬ</div>
+                    <div class="product__bottom-button_2">УДАЛИТЬ</div>
+                </div>
+
+                <div class="product-bottom__wrapper_3 flex-container">
+                    <div class="product-bottom__quantity product-bottom__quantity_3 flex-container">
+                        <p class="product-bottom__quantity-color-text">Действия:</p>
+                        <p class="product-bottom__quantity-value">Активировать</p>
+                    </div>
+
+                    <div class="product__checkbox-wrapper">
+                        <input type="checkbox" class="product-checkbox" id="product-checkbox">
+                        <label for="product-checkbox">Для всех</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="adding-product" class="adding-product">
+    <div class="adding-product__content">
+        <span class="close-login" onclick="addingProductNone()"></span>
+        <span class="close-login__dubl"></span>
+        <p class="modal-login__title">Добавление товара</p>
+
+        <div id="tabs">
+
+            <div class="adding-product__buttons flex-container flex-wrap">
+                <div class="tab active">ОБЩИЕ НАСТРОЙКИ</div>
+                <div class="tab">КАТЕГОРИИ</div>
+                <div class="tab">ГЕОГРАФИЯ</div>
+                <div class="tab">ФОТО</div>
+            </div>
+
+            <div class="city-dropdown__line"></div>
+
+            <div class="tabContent">
+                <div class="adding-product__id-wrapper">
+                    <p class="adding-product__id">ID: 2568</p>
+
+                    <div class="flex-container">
+                        <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_1">
+                        <label for="adding-product__checkbox_1">Активность</label>
+                    </div>
+                </div>
+
+                <form class="adding-product__form flex-container flex-wrap">
+                    <input class="" placeholder="Название">
+                    <input class="" placeholder="Цена (новая), руб">
+                    <input class="" placeholder="Цена (старая), руб">
+                    <textarea placeholder="Описание"></textarea>
+
+                    <div class="adding-product__checkboxes flex-container">
+                        <div class="flex-container">
+                            <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_2">
+                            <label for="adding-product__checkbox_2">Новинка</label>
+                        </div>
+                        <div class="flex-container">
+                            <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_3">
+                            <label for="adding-product__checkbox_3">Скидка</label>
+                        </div>
+                        <div class="flex-container">
+                            <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_4">
+                            <label for="adding-product__checkbox_4">Хит</label>
+                        </div>
+                    </div>
+
+                    <input class="" placeholder="Ссылка">
+                </form>
+            </div>
+
+            <div class="tabContent">
+                <p class="tab-2__title">Все категории</p>
+
+                <div class="tab-2__scroll-wrapper">
+                    <div class="tab-2__scroll">
+
+                        <div class="tab-2__content flex-container">
+                            <div class="tab-2__left flex-container">
+                                <div class="tab-2__catalog-block">
+
+                                    <div class="tab-2__catalog-wrapper">
+                                        <div class="tab-2__catalog">
+                                            <ul>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Пол</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li class="tab-2__catalog-li">
+                                                            <p class="tab-2__catalog-p">123</p>
+                                                            <ul class="tab-2__catalog-ul">
+                                                                <li>1</li>
+                                                                <li>2</li>
+                                                                <li>3</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="tab-2__catalog-li">
+                                                            <p class="tab-2__catalog-p">345</p>
+                                                            <ul class="tab-2__catalog-ul">
+                                                                <li>1</li>
+                                                                <li>2</li>
+                                                                <li>3</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Кем приходится</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Какой</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Возраст</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Повод</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Профессия/деятельность</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Знак зодиака</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Национальность/Вера</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Какой подарок</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Бюджет</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">От кого</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Категория</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="tab-2__col">
+                                    <div class="tab-2__left-name">
+                                        <div class="flex-container">
+                                            <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_2-1">
+                                            <label for="adding-product__checkbox_2-1">Название</label>
+                                        </div>
+                                    </div>
+                                    <div class="tab-2__left-category">
+                                        <p class="">Пожалуйста выбирите категории из дерева категорий.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-2__arrows">
+                                <div class="tab-2__arrow_1"></div>
+                                <div class="tab-2__arrow_2"></div>
+                            </div>
+
+                            <div class="tab-2__right">
+                                <div class="tab-2__right-name">
+                                    <div class="flex-container">
+                                        <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_2-2">
+                                        <label for="adding-product__checkbox_2-2">Название</label>
+                                    </div>
+                                </div>
+                                <div class="tab-2__right-category"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabContent">
+                <p class="tab-2__title">Все местоположения</p>
+
+                <div class="tab-2__scroll-wrapper">
+                    <div class="tab-2__scroll">
+
+                        <div class="tab-2__content flex-container">
+                            <div class="tab-2__left flex-container">
+                                <div class="tab-2__catalog-block">
+
+                                    <div class="tab-2__catalog-wrapper">
+                                        <div class="tab-2__catalog">
+                                            <ul>
+                                                <li class="tab-2__catalog-li">
+                                                    <p class="tab-2__catalog-p">Россия</p>
+                                                    <ul class="tab-2__catalog-ul">
+                                                        <li class="tab-2__catalog-li">
+                                                            <p class="tab-2__catalog-p">Московская область</p>
+                                                            <ul class="tab-2__catalog-ul">
+                                                                <li>1</li>
+                                                                <li>2</li>
+                                                                <li>3</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="tab-2__catalog-li">
+                                                            <p class="tab-2__catalog-p">Челябинская область</p>
+                                                            <ul class="tab-2__catalog-ul">
+                                                                <li>Челябинск</li>
+                                                                <li>Златоуст</li>
+                                                                <li>Карабаш</li>
+                                                                <li>Копейск</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="tab-2__col">
+                                    <div class="tab-2__left-name">
+                                        <div class="flex-container">
+                                            <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_3-1">
+                                            <label for="adding-product__checkbox_3-1">Название</label>
+                                        </div>
+                                    </div>
+                                    <div class="tab-2__left-category">
+                                        <p class="">Пожалуйста выбирите категории из дерева категорий.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-2__arrows">
+                                <div class="tab-2__arrow_1"></div>
+                                <div class="tab-2__arrow_2"></div>
+                            </div>
+
+                            <div class="tab-2__right">
+                                <div class="tab-2__right-name">
+                                    <div class="flex-container">
+                                        <input type="checkbox" class="adding-product__checkbox" id="adding-product__checkbox_3-2">
+                                        <label for="adding-product__checkbox_3-2">Название</label>
+                                    </div>
+                                </div>
+                                <div class="tab-2__right-category"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tabContent">4</div>
+
+            <div class="city-dropdown__line"></div>
+
+            <div class="adding-product__bottom-buttons flex-container flex-wrap">
+                <button>СОХРАНИТЬ</button>
+                <button>ПРИМЕНИТЬ</button>
+                <button>ОТМЕНИТЬ</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="importPrice" class="import-price">
+    <div class="import-price__content">
+        <span class="close-register" onclick="importPriceNone()"></span>
+        <span class="close-register__dubl"></span>
+        <p class="import-price__title">Импорт прайс-листа</p>
+        <p class="import-price__sub-title">Для импорта товаров на сайт выбирите файл и нажмите "Загрузить"</p>
+
+        <div class="import-price__button-top" onclick="">СКАЧАТЬ ОБРАЗЕЦ ФАЙЛА ДЛЯ ЗАГРУЗКИ</div>
+
+        <div class="city-dropdown__line"></div>
+
+        <p class="import-price__format-text">Формат файла: yml, xml. Размер файла до 10 мб</p>
+        <div class="import-price__file-load">
+
+        </div>
+
+        <div class="import-price__stat flex-container">
+            <div class="import-price__left">
+                <p class="import-price__left-title">Импорт прошел успешно</p>
+            </div>
+
+            <div class="import-price__right">
+                <p class="import-price__right-title">Во время импорта произошли ошибки</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container flex-container flex-wrap">
+        <div class="footer__logo-wrapper flex-container flex-wrap">
+            <a href="#" class="footer__logo" style="background-image: url('images/logo-footer.png')"></a>
+            <p class="footer__logo-text">Подбор подарков и впечатлений © 2000-2019</p>
+        </div>
+
+        <div class="footer__icons-soc">
+            <a href="#"><div class="footer__icon fb"></div></a>
+            <a href="#"><div class="footer__icon vk"></div></a>
+            <a href="#"><div class="footer__icon ok"></div></a>
+            <a href="#" class="footer__link-ig"><div class="footer__icon ig"></div></a>
+        </div>
+
+        <div class="footer__dev-wrapper flex-container flex-wrap">
+            <a href="#" class="footer__text-polit">Политика конфиденциальности</a>
+            <a href="#" class="footer__mark-up flex-container">
+                <div class="footer__mark-up-img"></div>
+                <div class="footer__mark-up-text">Разработка <underline>MarketingUp</underline></div>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<div id="myModalRegister" class="modal-register">
+    <div class="modal-register__content">
+        <span class="close-register" onclick="displayNoneRegister()"></span>
+        <span class="close-register__dubl"></span>
+        <p class="modal-register__title">Регистрация</p>
+
+        <form class="modal-register__form flex-container flex-wrap">
+            <input class="" placeholder="Фамилия">
+            <input class="" placeholder="Имя">
+            <input class="" placeholder="Отчество">
+            <input class="" placeholder="E-mail">
+            <input class="" placeholder="Телефон">
+            <input class="" placeholder="Сайт">
+
+            <button>ЗАРЕГИСТРИРОВАТСЯ</button>
+        </form>
+    </div>
+</div>
+
+<div id="myModalLogin" class="modal-login">
+    <div class="modal-login__content">
+        <span class="close-login" onclick="modalStyleDisplayNoneLogin()"></span>
+        <span class="close-login__dubl"></span>
+        <p class="modal-login__title">Вход</p>
+
+        <form class="modal-login__form flex-container flex-wrap">
+            <input class="" placeholder="E-mail">
+            <input class="" placeholder="Пароль">
+
+            <div class="modal-login__form-buttons-wrapper flex-container flex-wrap">
+                <button>ВОЙТИ</button>
+                <button class="modal-login__form-button-pas">ЗАБЫЛИ ПАРОЛЬ</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="scripts/jquery-3.4.1.js"></script>
+<script src="scripts/owlcarousel/owl.carousel.min.js"></script>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>

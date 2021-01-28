@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>all.gifts</title>
+
+    <link rel="stylesheet" href="styles/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owlcarousel/owl.theme.default.min.css">
+
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="top-line">
+        <div class="container flex-container flex-wrap">
+
+            <div class="top-line__menu flex-container flex-wrap">
+                <a href="#" class="top-line__menu-about flex-container">
+                    <div class="top-line__icon top-line__menu-about-img" src="images/icon/info.gif"></div>
+                    <p>О нас</p>
+                </a>
+                <a href="#" class="top-line__menu-cooperation flex-container">
+                    <div class="top-line__icon top-line__menu-cooperation-img" src="images/icon/star-(1).gif"></div>
+                    <p>Сотрудничество</p>
+                </a>
+                <a href="#" class="top-line__menu-contacts flex-container">
+                    <div class="top-line__icon top-line__menu-contacts-img" src="images/icon/envelope.gif"></div>
+                    <p>Контакты</p>
+                </a>
+                <div href="#" class="top-line__menu-city flex-container" id="top-line__menu-city">
+                    <div class="top-line__icon top-line__menu-city-img" src="images/icon/placeholder.gif"></div>
+                    <p class="top-line__menu-city-grey">Ваш город: </p>
+                    <p class="top-line__menu-city-city">Москва</p>
+                </div>
+
+                <div class="city-dropdown" id="city-dropdown">
+                    <p class="city-dropdown__title">Город</p>
+
+                    <div class="city-dropdown__current flex-container">
+                        <p class="city-dropdown__text-color city-dropdown__text-color-ml">Текущий город:	&nbsp;</p>
+                        <p class="city-dropdown__text city-dropdown__text-mr">Москва</p>
+                    </div>
+
+                    <div class="city-dropdown__line"></div>
+
+                    <div class="city-dropdown__input-wrapper flex-container">
+                        <p class="city-dropdown__text-color">Ваш город:</p>
+                        <input class="city-dropdown__input" placeholder="Введите название города">
+                    </div>
+                    <div class="city-dropdown__example flex-container">
+                        <p class="city-dropdown__text-color">Например:</p>
+                        <div class="city-dropdown__city-wrapper flex-container">
+                            <a class="city-dropdown__city1" href="#">Москва</a>
+                            <a class="city-dropdown__city2" href="#">Санкт-Петербург</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-line__personal flex-container">
+                <div class="top-line__login flex-container" onclick="modalStyleDisplayBlockLogin()">
+                    <img src="images/icon/profile.gif">
+                    <p>Войти</p>
+                </div>
+                <div class="top-line__registration flex-container" onclick="displayBlockRegister()">
+                    <img src="images/icon/more.gif">
+                    <p>Регистрация</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content-line">
+        <div class="container flex-container flex-wrap">
+            <div class="content-line__logo-wrapper">
+                <img src="images/logo.gif">
+                <p class="">ПОДБОР ПОДАРКОВ И ВПЕЧАТЛЕНИЙ</p>
+            </div>
+
+            <div class="content-line__text">
+                <p>Мы собрали лучшие предложения по идеям<br> для подарка от более чем 300-х интернет магазинов</p>
+            </div>
+
+            <div class="content-line__contacts">
+                <div class="content-line__skype flex-container">
+                    <img src="images/header/skype.gif">
+                    <p>all.gifts</p>
+                </div>
+                <a href="tel:8 800 200 50 50" class="content-line__phone flex-container">
+                    <img src="images/header/viber-(1).png">
+                    <p>8 800 200 50 50</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-line">
+        <div class="container flex-container">
+            <div class="menu">
+                <div class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="links">
+                    <li class="menu-dropdown"><a href="#">каталог</a>
+                        <ul>
+                            <li><a href="#">категория</a>
+                                <ul>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">категория</a>
+                                <ul>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">категория</a>
+                                <ul>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">категория</a>
+                                <ul>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">категория</a>
+                                <ul>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                    <li><a href="#">Категория</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <div class="menu-vertical-line"></div>
+                    <li><a href="#">мужчине</a></li>
+                    <li><a href="#">женщине</a></li>
+                    <li><a href="#">ребенку</a></li>
+                    <li><a href="#">паре</a></li>
+                    <div class="menu-vertical-line"></div>
+                    <li><a href="#">день рождения</a></li>
+                    <li><a href="#">юбилей</a></li>
+                    <li><a href="#">свадьба</a></li>
+                    <li><a href="#">новый год</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-line__logo-mini" style="background-image: url('images/header/logo-header-mini.png');"></div>
+            <a href="tel:8 800 200 50 50" class="content-line__phone content-line__phone2 flex-container">
+                <img src="images/header/viber-(1)-white.png">
+                <p>8 800 200 50 50</p>
+            </a>
+
+            <a href="#" class="search flex-container">
+                <img src="images/icon/magnifying-glass.png">
+                <p>ПОИСК</p>
+            </a>
+        </div>
+    </div>
+
+<main>
+    <div class="main-banner">
+        <div class="container flex-container">
+            <div class="main-banner-left">
+                <div class="owl-carousel owl-carousel__main-banner">
+                    <div class="owl-carousel__main-banner-block">
+                        <div class="main-banner-block__text-wrapper">
+                            <p class="main-banner__block-text1">
+                                ТОП 10
+                            </p>
+                            <p class="main-banner__block-text2">
+                                ОРИГИНАЛЬНЫХ ПОДАРКОВ НА СВАДЬБУ
+                            </p>
+                            <p class="main-banner__block-text3">
+                                Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                способствует подготовки и реализации форм развития. Не следует, однако забывать, что укрепление и
+                            </p>
+                        </div>
+
+                        <a href="#" class="main-banner__block-link">СМОТРЕТЬ</a>
+                    </div>
+                    <div class="owl-carousel__main-banner-block">
+                        <div class="main-banner-block__text-wrapper">
+                            <p class="main-banner__block-text1">
+                                ТОП 10
+                            </p>
+                            <p class="main-banner__block-text2">
+                                ОРИГИНАЛЬНЫХ ПОДАРКОВ НА СВАДЬБУ
+                            </p>
+                            <p class="main-banner__block-text3">
+                                Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                способствует подготовки и реализации форм развития. Не следует, однако забывать, что укрепление и
+                            </p>
+                        </div>
+
+                        <a href="#" class="main-banner__block-link">СМОТРЕТЬ</a>
+                    </div>
+                    <div class="owl-carousel__main-banner-block">
+                        <div class="main-banner-block__text-wrapper">
+                            <p class="main-banner__block-text1">
+                                ТОП 10
+                            </p>
+                            <p class="main-banner__block-text2">
+                                ОРИГИНАЛЬНЫХ ПОДАРКОВ НА СВАДЬБУ
+                            </p>
+                            <p class="main-banner__block-text3">
+                                Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                способствует подготовки и реализации форм развития. Не следует, однако забывать, что укрепление и
+                            </p>
+                        </div>
+
+                        <a href="#" class="main-banner__block-link">СМОТРЕТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gifts">
+        <div class="container flex-container flex-wrap">
+            <div class="gifts__gift">
+                <img class="gifts_gift-icon" src="images/icon/calendar-(1).gif">
+                <p class="gifts__gift-title">По поводу</p>
+
+                <div class="gifts__gift-imgs-wrapper">
+                    <a href="#" class="gifts__gift-img-link">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-2.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">день рождения</p>
+                    </a>
+                    <a href="#" class="gifts__gift-img-link">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-3.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">свадьба</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-4.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">новый год</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-5.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">День святого валентина</p>
+                    </a>
+                </div>
+
+                <p class="gifts__gift-text">Другие</p>
+                <div class="gifts__gift-links-wrapper flex-container flex-wrap">
+                    <a href="#">День строителя</a>
+                    <a href="#">1 сентября</a>
+                    <a href="#">День воспитателя</a>
+                    <a href="#">14 февраля</a>
+                    <a href="#">День учителя</a>
+                </div>
+            </div>
+
+            <div class="gifts__gift">
+                <img class="gifts_gift-icon" src="images/icon/user.gif">
+                <p class="gifts__gift-title">Для кого</p>
+
+                <div class="gifts__gift-imgs-wrapper">
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-6.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">семье</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-7.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">семье</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-8.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">мужу</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-9.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">жене</p>
+                    </a>
+                </div>
+
+                <p class="gifts__gift-text">Другие</p>
+                <div class="gifts__gift-links-wrapper flex-container flex-wrap">
+                    <a href="#">Подруге</a>
+                    <a href="#">другу</a>
+                    <a href="#">мальчику</a>
+                    <a href="#">девочке</a>
+                    <a href="#">сестре</a>
+                    <a href="#">брату</a>
+                    <a href="#">дедушке</a>
+                    <a href="#">бабушке</a>
+                </div>
+            </div>
+
+            <div class="gifts__banner">
+                <div class="gifts__banner-text1">Специальные условия от нашего партнера</div>
+                <div class="gifts__banner-text2">компании OZON.RU</div>
+                <a href="#" class="gifts__banner-link">Подробнее</a>
+            </div>
+
+            <div class="gifts__gift">
+                <img class="gifts_gift-icon" src="images/icon/portfolio.gif">
+                <p class="gifts__gift-title">Профессия и деятельность</p>
+                <div class="gifts__gift-imgs-wrapper">
+                    <a href="#" class="gifts__gift-img-link">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-2.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">день рождения</p>
+                    </a>
+                    <a href="#" class="gifts__gift-img-link">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-3.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">свадьба</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-4.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">новый год</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-5.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">День святого валентина</p>
+                    </a>
+                </div>
+                <p class="gifts__gift-text">Свойства подарка</p>
+                <div class="gifts__gift-links-wrapper flex-container flex-wrap">
+                    <a href="#">учитель</a>
+                    <a href="#">военный</a>
+                    <a href="#">музыкант</a>
+                </div>
+            </div>
+
+            <div class="gifts__gift">
+                <img class="gifts_gift-icon" src="images/icon/star-(2).gif">
+                <p class="gifts__gift-title">Для кого</p>
+                <div class="gifts__gift-imgs-wrapper">
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-6.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">семье</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-7.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">семье</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-8.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">мужу</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-9.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">жене</p>
+                    </a>
+                </div>
+                <p class="gifts__gift-text">Другие</p>
+                <div class="gifts__gift-links-wrapper flex-container flex-wrap">
+                    <a href="#">Подруге</a>
+                    <a href="#">другу</a>
+                    <a href="#">мальчику</a>
+                    <a href="#">девочке</a>
+                    <a href="#">сестре</a>
+                    <a href="#">брату</a>
+                    <a href="#">дедушке</a>
+                    <a href="#">бабушке</a>
+                </div>
+            </div>
+
+            <div class="gifts__gift">
+                <img class="gifts_gift-icon" src="images/icon/hour-glass.gif">
+                <p class="gifts__gift-title">Возраст</p>
+                <div class="gifts__gift-imgs-wrapper">
+                    <a href="#" class="gifts__gift-img-link">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-2.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">день рождения</p>
+                    </a>
+                    <a href="#" class="gifts__gift-img-link">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-3.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">свадьба</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-4.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">новый год</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-5.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">День святого валентина</p>
+                    </a>
+                </div>
+                <p class="gifts__gift-text">Свойства подарка</p>
+                <div class="gifts__gift-links-wrapper flex-container flex-wrap">
+                    <a href="#">День строителя</a>
+                    <a href="#">1 сентября</a>
+                    <a href="#">День воспитателя</a>
+                    <a href="#">14 февраля</a>
+                    <a href="#">День учителя</a>
+                </div>
+            </div>
+
+            <div class="gifts__gift">
+                <img class="gifts_gift-icon" src="images/icon/money-bag.gif">
+                <p class="gifts__gift-title">Бюджет</p>
+                <div class="gifts__gift-imgs-wrapper">
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-6.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">семье</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-7.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">семье</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-8.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">мужу</p>
+                    </a>
+                    <a href="#">
+                        <img class="gifts__gift-img" src="images/content/gifts/Layer-9.gif">
+                        <div class="gifts__gift-img-canvas"></div>
+                        <p class="gifts__gift-p">жене</p>
+                    </a>
+                </div>
+                <p class="gifts__gift-text">Другие</p>
+                <div class="gifts__gift-links-wrapper flex-container flex-wrap">
+                    <a href="#">Подруге</a>
+                    <a href="#">другу</a>
+                    <a href="#">мальчику</a>
+                    <a href="#">девочке</a>
+                    <a href="#">сестре</a>
+                    <a href="#">брату</a>
+                    <a href="#">дедушке</a>
+                    <a href="#">бабушке</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscription">
+        <div class="container">
+            <form>
+                <p class="subscription__title">Подпишитесь на рассылку</p>
+                <p class="subscription__text">что бы получать подборки и обзоры</p>
+
+                <div class="subscription__checkbox-wrapper">
+                    <input type="checkbox" class="checkbox" id="checkbox" />
+                    <label for="checkbox">Я согласен с <a href="#">Политикой конфиденциальности</a> сервиса</label>
+                </div>
+
+                <label class="subscription__input-label">
+                    <input class="subscription__input" placeholder="E-mail">
+                    <button class="subscription__button">Подписаться</button>
+                </label>
+            </form>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <p class="reviews__title">Обзоры и подборки</p>
+            <div class="reviews__wrapper flex-container flex-wrap">
+                <div class="reviews__block flex-container">
+                    <img class="reviews__img" src="images/content/Layer-12.gif">
+                    <div class="reviews__text-wrapper">
+                        <p class="reviews__block-title">
+                            Таким образом консультация с широким активом позволяет
+                        </p>
+                        <p class="reviews__block-subtitle">Раздел</p>
+                        <p class="reviews__text">
+                            Идейные соображения высшего порядка, а так же дальнейшее
+                            развитие различных форм деятельности способствует подготовки
+                            и поализации форм развития. Не следует, однако забывать, что
+                        </p>
+                        <a class="reviews__link" href="#">читать далее</a>
+                    </div>
+                </div>
+                <div class="reviews__block flex-container">
+                    <img class="reviews__img" src="images/content/Layer-13.gif">
+                    <div class="reviews__text-wrapper">
+                        <p class="reviews__block-title">
+                            Таким образом консультация с широким активом позволяет
+                        </p>
+                        <p class="reviews__block-subtitle">Раздел</p>
+                        <p class="reviews__text">
+                            Идейные соображения высшего порядка, а так же дальнейшее
+                            развитие различных форм деятельности способствует подготовки
+                            и поализации форм развития. Не следует, однако забывать, что
+                        </p>
+                        <a class="reviews__link" href="#">читать далее</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="reviews__button-all">СМОТРЕТЬ ВСЕ</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container flex-container flex-wrap">
+        <div class="footer__logo-wrapper flex-container flex-wrap">
+            <a href="#" class="footer__logo" style="background-image: url('images/logo-footer.png')"></a>
+            <p class="footer__logo-text">Подбор подарков и впечатлений © 2000-2019</p>
+        </div>
+
+        <div class="footer__icons-soc">
+            <a href="#"><div class="footer__icon fb"></div></a>
+            <a href="#"><div class="footer__icon vk"></div></a>
+            <a href="#"><div class="footer__icon ok"></div></a>
+            <a href="#" class="footer__link-ig"><div class="footer__icon ig"></div></a>
+        </div>
+
+        <div class="footer__dev-wrapper flex-container flex-wrap">
+            <a href="#" class="footer__text-polit">Политика конфиденциальности</a>
+            <a href="#" class="footer__mark-up flex-container">
+                <div class="footer__mark-up-img"></div>
+                <div class="footer__mark-up-text">Разработка <underline>MarketingUp</underline></div>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<div id="myModalRegister" class="modal-register">
+    <div class="modal-register__content">
+        <span class="close-register" onclick="displayNoneRegister()"></span>
+        <span class="close-register__dubl"></span>
+        <p class="modal-register__title">Регистрация</p>
+
+        <form class="modal-register__form flex-container flex-wrap">
+            <input class="" placeholder="Фамилия">
+            <input class="" placeholder="Имя">
+            <input class="" placeholder="Отчество">
+            <input class="" placeholder="E-mail">
+            <input class="" placeholder="Телефон">
+            <input class="" placeholder="Сайт">
+
+            <button>ЗАРЕГИСТРИРОВАТСЯ</button>
+        </form>
+    </div>
+</div>
+
+<div id="myModalLogin" class="modal-login">
+    <div class="modal-login__content">
+        <span class="close-login" onclick="modalStyleDisplayNoneLogin()"></span>
+        <span class="close-login__dubl"></span>
+        <p class="modal-login__title">Вход</p>
+
+        <form class="modal-login__form flex-container flex-wrap">
+            <input class="" placeholder="E-mail">
+            <input class="" placeholder="Пароль">
+
+            <div class="modal-login__form-buttons-wrapper flex-container flex-wrap">
+                <button>ВОЙТИ</button>
+                <button class="modal-login__form-button-pas">ЗАБЫЛИ ПАРОЛЬ</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="scripts/jquery-3.4.1.js"></script>
+<script src="scripts/owlcarousel/owl.carousel.min.js"></script>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
